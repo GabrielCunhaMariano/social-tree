@@ -1,0 +1,8 @@
+.all-content {
+  display: flex;
+  width: 330px;
+  height: 600px;
+  margin: 0 auto;
+  margin-top: 25px;
+  background-color: black;
+}
