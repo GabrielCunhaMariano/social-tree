@@ -3,17 +3,19 @@
 }
 .all {
   display: table;
-  line-height: 100px;
-  justify-content: center;
-  align-items: center;
-  width: 330px;
-  height: 600px;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 49px;
+  width: 400px;
+  height: 800px;
   margin: 0 auto;
   margin-top: 25px;
+  margin-top: 50px;
 }
 
 .all-itens {
-  display: flexbox;
+  position: relative;
   justify-content: center;
   width: 100%;
   position: relative;
@@ -30,4 +32,28 @@
 
 .social-networks {
   display: grid;
+}
+
+.link-one {
+  border: 2px solid #bb99dd;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.link-two {
+  border: 2px solid #bb99dd;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.link-tree {
+  border: 2px solid #bb99dd;
+  border-radius: 4px;
+  margin-bottom: 16px;
+}
+
+.link-four {
+  border: 2px solid #bb99dd;
+  border-radius: 4px;
+  margin-bottom: 68px;
 }
