@@ -1,11 +1,14 @@
 * {
   margin: 0;
 }
+
+body {
+  background: #faf7fd;
+}
+
 .all {
-  display: table;
-  position: relative;
+  font-style: normal;
   text-align: center;
-  vertical-align: middle;
   line-height: 49px;
   width: 400px;
   height: 800px;
@@ -38,22 +41,34 @@
   border: 2px solid #bb99dd;
   border-radius: 4px;
   margin-bottom: 16px;
+  text-decoration: none;
 }
 
 .link-two {
   border: 2px solid #bb99dd;
   border-radius: 4px;
   margin-bottom: 16px;
+  text-decoration: none;
 }
 
 .link-tree {
   border: 2px solid #bb99dd;
   border-radius: 4px;
   margin-bottom: 16px;
+  text-decoration: none;
 }
 
 .link-four {
   border: 2px solid #bb99dd;
   border-radius: 4px;
   margin-bottom: 68px;
+  text-decoration: none;
+}
+
+.icons {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  gap: 30px;
 }
