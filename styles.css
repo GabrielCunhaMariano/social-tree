@@ -98,17 +98,26 @@ body {
 }
 footer {
   display: flex;
+  width: 100%;
+  margin-top: 50px;
   justify-content: center;
-  margin-top: 25px;
+  align-items: center;
   font-family: "Rubik", sans-serif;
   font-weight: 400;
   font-size: 12px;
   line-height: 15px;
-  margin-bottom: 20px;
 }
 @media (min-width: 320px) {
   body {
-    margin-left: 20px;
-    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+  }
+  .all {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+  footer {
+    margin-top: 75px;
   }
 }
