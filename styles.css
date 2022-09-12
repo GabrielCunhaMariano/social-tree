@@ -107,7 +107,7 @@ footer {
   font-size: 12px;
   line-height: 15px;
 }
-@media (min-width: 320px) {
+@media (max-width: 1000px) {
   body {
     display: flex;
     justify-content: center;
