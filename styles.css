@@ -19,10 +19,8 @@ body {
 }
 
 .all-itens {
-  position: relative;
   justify-content: center;
   width: 100%;
-  position: relative;
 }
 
 .my-photo {
@@ -101,4 +99,13 @@ body {
 .icon-size {
   width: 25px;
   height: 25px;
+}
+footer {
+  margin-top: 25px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  margin-bottom: 20px;
+  text-align: center;
 }
